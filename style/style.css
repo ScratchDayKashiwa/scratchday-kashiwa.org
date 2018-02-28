@@ -1,0 +1,70 @@
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+/*== common ==*/
+html{
+    font-family: "Noto Sans Japanese";
+}
+
+a{
+    color: white !important;
+    text-decoration: none !important;
+}
+
+ul{
+    list-style-type: none;
+}
+    
+.btn{
+    color: white !important;
+}
+    
+.container-fluid{
+    background-color: #f5ae3a;
+}
+
+.title{
+    padding: 2% 0;
+    font-size: 1.75em;
+}
+
+.sub-title{
+    padding: 2% 0;
+    font-size: 1.25em;
+}
+
+.cdk{
+    margin-top: 5%;
+    font-size: 1.75em;
+    font-family: 'Fjalla One';
+}
+
+.reitaku{
+    margin-top: 5%;
+    font-size: 1.75em;
+}
+
+.reitaku-logo{
+    margin: 15% 0;
+}
+
+/*== navbar ==*/
+#nav{
+    color: white;
+}
+
+/*== main ==*/
+#main section{
+    background-color: #dd872a;
+    color: white;
+}
+
+/*== footer ==*/
+#footer{
+    color: gray;
+}
+
+.copyright{
+    font-size: .5em;
+    text-align: center;
+}
