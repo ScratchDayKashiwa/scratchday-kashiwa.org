@@ -23,30 +23,48 @@ ul{
     background-color: #f5ae3a;
 }
 
-.title{
-    padding: 2% 0;
-    font-size: 1.75em;
-}
+    /*= 文字関係 =*/
 
-.sub-title{
-    padding: 2% 0;
-    font-size: 1.25em;
-}
+    .title{
+        padding: 2% 0;
+        font-size: 1.75em;
+    }
 
-.cdk{
-    margin-top: 5%;
-    font-size: 1.75em;
-    font-family: 'Fjalla One';
-}
+    .sub-title{
+        padding: 2% 0;
+        font-size: 1.25em;
+    }
 
-.reitaku{
-    margin-top: 5%;
-    font-size: 1.75em;
-}
+    .caution-gray{
+        font-size: .75em;
+        color: gray;
+    }
 
-.reitaku-logo{
-    margin: 15% 0;
-}
+
+/*== 運営について ==*/
+
+    /*= CoderDojo Kashiwa =*/
+    .cdk-logo{
+        margin: 5%;
+        width: 35%;
+    }
+
+    .cdk{
+        margin-top: 5%;
+        font-size: 1.75em;
+        font-family: 'Fjalla One';
+    }
+
+    /*= 麗澤大学 =*/
+    .reitaku-logo{
+        margin: 15% 0;
+        width: 52.5%;
+    }
+    
+    .reitaku{
+        margin-top: 5%;
+        font-size: 1.55em;
+    }
 
 /*== navbar ==*/
 #nav{
