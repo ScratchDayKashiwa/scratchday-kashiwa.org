@@ -4,6 +4,6 @@
 # scratchday-kashiwa.org
 http://scratchday-kashiwa.org
 ScratchDay 2018 in Kashiwa
-
-Date: 2018.05.20 (Sun)
-Venue: Reitaku University
+ 
+* Date: 2018.05.20 (Sun)
+* Venue: Reitaku University
