@@ -43,27 +43,29 @@ ul{
 
 /*== 運営について ==*/
 
-    /*= CoderDojo Kashiwa =*/
-    .cdk-logo{
-        margin: 5%;
-        width: 35%;
+/*== ロゴ ==*/
+.x-length-logo{
+    margin-bottom: 5%;
+    width: 65%;
+}
+
+.square-logo{
+    margin-bottom: 5%;
+    width: 15%;
+}
+    /*= 実行委員会 =*/
+    .sdk{
+        font-size: 1.5em;
     }
 
+    /*= CoderDojo Kashiwa =*/
     .cdk{
-        margin-top: 5%;
-        font-size: 1.75em;
-        font-family: 'Fjalla One';
+        font-size: 1.5em;
     }
 
     /*= 麗澤大学 =*/
-    .reitaku-logo{
-        margin: 15% 0;
-        width: 52.5%;
-    }
-    
     .reitaku{
-        margin-top: 5%;
-        font-size: 1.55em;
+        font-size: 1.5em;
     }
 
 /*== navbar ==*/
