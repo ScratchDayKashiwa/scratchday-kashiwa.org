@@ -79,6 +79,14 @@ ul{
     color: white;
 }
 
+    /*= スライドショー =*/
+    .carousel-caption{
+        bottom: 35px !important;
+        padding-top: 30px !important;
+        padding-bottom: 10px !important;
+        background-color: rgba(128, 128, 128, .6)
+    }
+
 /*== footer ==*/
 #footer{
     color: gray;

@@ -24,11 +24,13 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="./style/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <!-- jQuery first, then Tether, then Bootstrap JS. -->
-    <script src="//code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="./js/bootstrap.js"></script>
+
+     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
     <!-- OGP settings -->
 	 <meta property="og:title" content="ScratchDay in Kashiwa">
@@ -98,6 +100,98 @@
                 <p>
                     Comming Soon...
                 </p>
+
+                <!-- 昨年の様子 -->
+                <article>
+                    <h2 class="sub-title">ScratchDay in Kashiwaの様子</h2>
+                    
+                    <!-- スライドショー -->
+                    <div id="slides" class="carousel slide" data-ride="carousel">
+
+                        <ol class="carousel-indicators">
+                            <li data-target="#slides" data-slide-to="0" class="active"></li>
+                            <li data-target="#slides" data-slide-to="1"></li>
+                            <li data-target="#slides" data-slide-to="2"></li>
+                            <li data-target="#slides" data-slide-to="3"></li>
+                            <li data-target="#slides" data-slide-to="4"></li>
+                            <li data-target="#slides" data-slide-to="5"></li>
+                        </ol>
+
+                        <div class="carousel-inner">
+
+                            <div class="carousel-item active">
+                                <!-- スライド写真 -->
+                                <img src="./images/slides/s1.jpg" class="d-block img-fluid">
+                                <!-- スライドコメント -->
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>2017年の集合写真</h5>
+                                    <p>柏市立柏中学校の体育館で開催しました。</p>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <!-- スライド写真 -->
+                                <img src="./images/slides/s2.jpg" class="d-block img-fluid">
+                                <!-- スライドコメント -->
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>会場の様子</h5>
+                                    <p>手前はハッカソン、真ん中は企業ブース、奥は発表ブースです。</p>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <!-- スライド写真 -->
+                                <img src="./images/slides/s3.jpg" class="d-block img-fluid">
+                                <!-- スライドコメント -->
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>子ども向けワークショップブース</h5>
+                                    <p>初心者から経験者まで楽しめる内容を考えています。</p>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <!-- スライド写真 -->
+                                <img src="./images/slides/s4.jpg" class="d-block img-fluid">
+                                 <!-- スライドコメント -->
+                                 <div class="carousel-caption d-none d-md-block">
+                                    <h5>ワークショップの様子</h5>
+                                    <p>メンターにわからないところを質問できる環境もワークショップの利点です。</p>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <!-- スライド写真 -->
+                                <img src="./images/slides/s5.jpg" class="d-block img-fluid">
+                                <!-- スライドコメント -->
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>ワークショップの様子</h5>
+                                    <p>メンターにわからないところを質問できる環境もワークショップの利点です。</p>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <!-- スライド写真 -->
+                                <img src="./images/slides/s6.jpg" class="d-block img-fluid">
+                                <!-- スライドコメント -->
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Show & Tellの様子</h5>
+                                    <p>子どもたちやゲストによる発表の場所です。</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <a class="carousel-control-prev" href="#slides" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#slides" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+
+                    </div>
+                </article>
             </section>
             <!-- 運営について -->
             <section id="" class="col-md-8 offset-md-2 my-5 p-3 text-center rounded mx-sm-2 mx-md-auto">
@@ -136,6 +230,7 @@
                 </div>
             </section>
         </div>
+        <!-- footer -->
         <div id="footer" class="row">
             <div class="col-12">
                 <p class="copyright">Copyright <i class="far fa-copyright"></i> ScratchDay 2018 in Kashiwa</p>
