@@ -106,6 +106,15 @@ ul{
         background-color: rgba(128, 128, 128, .6)
     }
 
+/*== スポンサー ==*/
+#sponsor #gold img,#silver img{
+    padding-top: 5%;
+}
+
+.card{
+    background-color: #f5ae3a !important;
+}
+
 /*== footer ==*/
 #footer{
     color: gray;
