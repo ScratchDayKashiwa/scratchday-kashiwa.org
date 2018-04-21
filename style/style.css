@@ -18,6 +18,10 @@ ul{
 .btn{
     color: white !important;
 }
+
+.scratchBlue{
+    background-color: #2fa3e9;
+}
     
 .container-fluid{
     background-color: #f5ae3a;
@@ -79,6 +83,21 @@ ul{
     color: white;
 }
 
+/* card */
+.card{
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    background-color: #f5ae3a !important;
+}
+
+.modal-content{
+   background-color: #dd872a !important;
+}
+
+.modal-body{
+    background-color: #f5ae3a !important;
+}
+
     /*= スライドショー =*/
     .carousel-caption{
         bottom: 35px !important;
@@ -86,6 +105,15 @@ ul{
         padding-bottom: 10px !important;
         background-color: rgba(128, 128, 128, .6)
     }
+
+/*== スポンサー ==*/
+#sponsor #gold img,#silver img{
+    padding-top: 5%;
+}
+
+.card{
+    background-color: #f5ae3a !important;
+}
 
 /*== footer ==*/
 #footer{
