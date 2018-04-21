@@ -18,6 +18,10 @@ ul{
 .btn{
     color: white !important;
 }
+
+.scratchBlue{
+    background-color: #2fa3e9;
+}
     
 .container-fluid{
     background-color: #f5ae3a;
@@ -77,6 +81,21 @@ ul{
 #main section{
     background-color: #dd872a;
     color: white;
+}
+
+/* card */
+.card{
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    background-color: #f5ae3a !important;
+}
+
+.modal-content{
+   background-color: #dd872a !important;
+}
+
+.modal-body{
+    background-color: #f5ae3a !important;
 }
 
     /*= スライドショー =*/
