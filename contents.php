@@ -96,9 +96,50 @@
                             </h5>
                             </div>
                             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                            <div class="card-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                            </div>
+                                <div class="card-body">
+                                    <p class="text-justify">
+                                        今までやってきたプログラミングのステップアップを目指そう<br/>
+                                        【伝授すること】<br/>
+                                        ・ジャンプ（重力）の仕方<br/>
+                                        ・横スクロールゲームの作り方<br/>
+                                        ・初期化について<br/>
+                                        ・デバッグ(プログラムの上手な直し方)<br/>
+                                        パソコンは持ち込み前提です。<br/>
+                                    </p>
+                                    <div>
+                                        <h2 class="sub-title">当日のタイムスケジュール</h2>
+                                        <table class="table table-hover">
+                                            <thead>
+                                                <tr>
+                                                    <td>時間</td>
+                                                    <td>内容</td>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>10:30-11:20</td>
+                                                    <td>ジャンプ（重力）の仕方</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>13:00-13:50</td>
+                                                    <td>横スクロールゲームの作り方</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>14:00-14:50</td>
+                                                    <td>ジャンプ（重力）の仕方</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>15:50〜16:40</td>
+                                                    <td>横スクロールゲームの作り方</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div>
+                                        <p>定員：各プログラム6名</p>
+                                        <a class="btn scratchBlue" href="https://docs.google.com/forms/d/e/1FAIpQLSfq2WrmDvA4FITiDpbo20H71hrAaNLHZJZK3Wk_JN1LOML0bA/viewform" role="button">申し込む</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="card">
@@ -117,63 +158,6 @@
                         </div>
                         </div>
 
-                </div>
-                <div>
-                    <h2 class="sub-title">当日のタイムスケジュール</h2>
-                    <table class="table table-hover">
-                        <thead>
-                            <tr>
-                                <td>時間</td>
-                                <td>初級クラス</td>
-                                <td>中級クラス</td>
-                                <td>上級クラス</td>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>10:00</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td>11:00</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td>12:00</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td>13:00</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td>14:00</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td>15:00</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td>16:00</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                        </tbody>
-                    </table>
                 </div>
                 <div>
                     <h2 class="sub-title">子ども向けワークショップの昨年の様子</h2>
