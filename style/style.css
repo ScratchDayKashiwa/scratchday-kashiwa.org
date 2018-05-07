@@ -4,6 +4,11 @@
 /*== common ==*/
 html{
     font-family: "Noto Sans Japanese";
+    height: 100% !important;
+}
+
+body{
+    height: 100% !important;
 }
 
 a{
@@ -13,8 +18,10 @@ a{
 
 ul{
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
-    
+
 .btn{
     color: white !important;
 }
@@ -22,9 +29,11 @@ ul{
 .scratchBlue{
     background-color: #2fa3e9;
 }
-    
+
 .container-fluid{
     background-color: #f5ae3a;
+    height: auto;
+    min-height: 100%;
 }
 
     /*= 文字関係 =*/
