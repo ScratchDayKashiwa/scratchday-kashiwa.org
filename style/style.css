@@ -43,6 +43,11 @@ ul{
         font-size: 1.75em;
     }
 
+    .partsTitle{
+        padding: 2% 0;
+        font-size: 1.5em;
+    }
+
     .sub-title{
         padding: 2% 0;
         font-size: 1.25em;
