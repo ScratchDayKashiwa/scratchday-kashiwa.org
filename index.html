@@ -79,7 +79,7 @@
         <!-- contents -->
         <div id="main" class="row">
             <!-- イベントについて -->
-            <section class="col-md-8 offset-md-2 my-5 p-3 text-center rounded mx-sm-2 mx-md-auto">
+            <section class="col-lg-8 offset-lg-2 my-5 p-3 text-center">
                 <div>
                     <h1 class="title">開催日時</h1>
                     <h2>2018年06月10日 日曜日</h2>
@@ -91,7 +91,7 @@
                 </div>
             </section>
             <!-- 開催内容について -->
-            <section class="col-md-8 offset-md-2 my-5 p-3 text-center rounded mx-sm-2 mx-md-auto">
+            <section class="col-lg-8 offset-lg-2 my-5 p-3 text-center">
                 <h1 class="title">開催内容</h1>
                 <!-- イベントリスト -->
                 <h2 class="sub-title">プログラム</h2>
@@ -124,7 +124,7 @@
                             </div>
                             <div class="card-body">
                                 <h5 class="card-title">大人向けワークショップ</h5>
-                                <p class="card-text">大人も子どもたちにチャレンジ！</p>
+                                <p class="card-text">大人も子どもたちにチャレンジ。</p>
                                 <a class="btn scratchBlue" href="adultws.html">
                                     詳細を見る
                                 </a>
@@ -137,7 +137,7 @@
                             <img src="./images/slides/lastYear/s4.jpg" class="card-img-top">
                             <div class="card-body">
                                 <h5 class="card-title">子ども向けワークショップ</h5>
-                                <p class="card-text">Scratchのレベルアップを目指そう！</p>
+                                <p class="card-text">Scratchのレベルアップを目指そう。</p>
                                 <a class="btn scratchBlue" href="childws.html">
                                     詳細を見る
                                 </a>
@@ -150,8 +150,8 @@
                             <img src="./images/others/hackathon.jpg" class="card-img-top">
                             <div class="card-body">
                                 <h5 class="card-title">Scratchハッカソン</h5>
-                                <p class="card-text"></p>
-                                <a class="btn scratchBlue" href="#">
+                                <p class="card-text">自由に作品を作り込もう。</p>
+                                <a class="btn scratchBlue" href="hackathon.html">
                                     詳細を見る
                                 </a>
                             </div>
@@ -190,8 +190,8 @@
                             </div>
                             <div class="card-body">
                                 <h5 class="card-title">Show & Tell</h5>
-                                <p class="card-text"></p>
-                                <a class="btn scratchBlue" href="#">
+                                <p class="card-text">取り組んできた成果を発表します。</p>
+                                <a class="btn scratchBlue" href="showTell.html">
                                     詳細を見る
                                 </a>
                             </div>
@@ -203,21 +203,44 @@
                             <img src="./images/others/touchTry.jpg" class="card-img-top">
                             <div class="card-body">
                                 <h5 class="card-title">Touch & Try</h5>
-                                <p class="card-text"></p>
-                                <a class="btn scratchBlue" href="#">
+                                <p class="card-text">ラズベリーパイで遊んでみよう。</p>
+                                <a class="btn scratchBlue" href="touchTry.html">
                                     詳細を見る
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <!-- トークセッション -->
+                    <!-- 企業WS -->
                     <div class="col-lg-6">
                         <div class="card">
-                            <img src="./images/others/talkSession.jpg" class="card-img-top">
+                            <div id="slidesCWS" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#slidesCWS" data-slide-to="0" class="active"></li>
+                                    <li data-target="#slidesCWS" data-slide-to="1"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="./images/sponsor/afrel/slides/sWS1.jpg" class="d-block img-fluid card-img-top">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./images/sponsor/afrel/slides/sWS2.jpg" class="d-block img-fluid card-img-top">
+                                    </div>
+                                </div>
+
+                                <a class="carousel-control-prev" href="#slidesCWS" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                </a>
+
+                                <a class="carousel-control-next" href="#slidesCWS" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
                             <div class="card-body">
-                                <h5 class="card-title">トークセッション</h5>
-                                <p class="card-text"></p>
-                                <a class="btn scratchBlue" href="#">
+                                <h5 class="card-title">企業ワークショップ</h5>
+                                <p class="card-text">ロボットを楽しく動かそう！</p>
+                                <a class="btn scratchBlue" href="afrel.html">
                                     詳細を見る
                                 </a>
                             </div>
@@ -227,67 +250,69 @@
                 </div>
                 
                 <!-- タイムスケジュール -->
-                <h2 class="sub-title">タイムスケジュール</h2>
-                <table class="table table-hover">
-                    <thead>
-                        <tr>
-                            <th>時間</th>
-                            <th>イベント名</th>
-                            <th>イベント内容</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>10:00-10:20</td>
-                            <td>オープニングセッション</td>
-                            <td>ScratchDay in Kashiwa の開会を宣言します。</td>
-                        </tr>
-                        <tr>
-                            <td>10:30-11:10</td>
-                            <td>Show & Tell No.1</td>
-                            <td>普段CoderDojoなどで作っている作品の発表をします。</td>
-                        </tr>
-                        <tr>
-                            <td>11:20-12:00</td>
-                            <td>トークセッション No.1</td>
-                            <td>只今調整中。</td>
-                        </tr>
-                        <tr>
-                            <td>12:10-13:00</td>
-                            <td>LT & スポンサーセッション</td>
-                            <td>只今調整中。</td>
-                        </tr>
-                        <tr>
-                            <td>13:00-13:40</td>
-                            <td>Show & Tell No.2</td>
-                            <td>普段CoderDojoなどで作っている作品の発表をします。</td>
-                        </tr>
-                        <tr>
-                            <td>14:00-14:50</td>
-                            <td>トークセッション No.2</td>
-                            <td>只今調整中。</td>
-                        </tr>
-                        <tr>
-                            <td>15:00-15:40</td>
-                            <td>読書会</td>
-                            <td>Lifelong Kindargarten を読んで意見を交換します。</td>
-                        </tr>
-                        <tr>
-                            <td>15:50-16:40</td>
-                            <td>Show & Tell No.3</td>
-                            <td>普段CoderDojoなどで作っている作品の発表をします。</td>
-                        </tr>
-                        <tr>
-                            <td>16:45-17:00</td>
-                            <td>クロージングセッション</td>
-                            <td>ScratchDay in Kashiwa 2018のまとめをします。</td>
-                        </tr>
-                    </tbody>
-                </table>
+                <h2 class="mt-5 sub-title">タイムスケジュール</h2>
+                <div class="px-2">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>時間</th>
+                                <th>イベント名</th>
+                                <th>イベント内容</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>10:00-10:20</td>
+                                <td>オープニングセッション</td>
+                                <td>ScratchDay in Kashiwa の開会を宣言</td>
+                            </tr>
+                            <tr>
+                                <td>10:30-11:10</td>
+                                <td>Show & Tell No.1</td>
+                                <td>普段CoderDojoなどで作っている作品の発表</td>
+                            </tr>
+                            <tr>
+                                <td>11:20-12:00</td>
+                                <td>トークセッション No.1</td>
+                                <td>プログラミング教育への取組み 〜IOデータの例〜</td>
+                            </tr>
+                            <tr>
+                                <td>12:10-13:00</td>
+                                <td>LT & スポンサーセッション</td>
+                                <td>只今調整中。</td>
+                            </tr>
+                            <tr>
+                                <td>13:00-13:40</td>
+                                <td>Show & Tell No.2</td>
+                                <td>普段CoderDojoなどで作っている作品の発表</td>
+                            </tr>
+                            <tr>
+                                <td>14:00-14:50</td>
+                                <td>トークセッション No.2</td>
+                                <td>プログラミング教育への取組み 〜千葉県柏市の例〜</td>
+                            </tr>
+                            <tr>
+                                <td>15:00-15:40</td>
+                                <td>読書会</td>
+                                <td>Lifelong Kindargarten を読んで意見を交換</td>
+                            </tr>
+                            <tr>
+                                <td>15:50-16:40</td>
+                                <td>Show & Tell No.3</td>
+                                <td>普段CoderDojoなどで作っている作品の発表</td>
+                            </tr>
+                            <tr>
+                                <td>16:45-17:00</td>
+                                <td>クロージングセッション</td>
+                                <td>ScratchDay in Kashiwa 2018のまとめ</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </section>
 
             <!-- 昨年の様子 -->
-            <section class="col-md-8 offset-md-2 my-5 p-3 text-center rounded mx-sm-2 mx-md-auto">
+            <section class="col-lg-8 offset-lg-2 my-5 p-3 text-center">
                 <article>
                     <h2 class="sub-title">ScratchDay in Kashiwaの様子</h2>
                     <p> ScratcyDay はアメリカのマサチューセッツ工科大学（MIT）メディアラボが開発した教育用プログラミングツールであるScratchの誕生日を祝うイベントです。全世界で同時に開催されます。柏では2016年, 2017年に開催しています。Scratchを使ったワークショップや体験ブース、トークセッションやShow&Tell（子どもたちによる発表会）を企画しています。世代を超えてプログラミングを楽しみましょう。</p>
@@ -381,7 +406,7 @@
                 </article>
             </section>
             <!-- 運営について -->
-            <section id="" class="col-md-8 offset-md-2 my-5 p-3 text-center rounded mx-sm-2 mx-md-auto">
+            <section class="col-lg-8 offset-lg-2 my-5 p-3 text-center">
                 <h1 class="title">運営について</h1>
                 <div class="row">
                     <!-- 主催 -->
@@ -413,6 +438,58 @@
                     <!-- 注釈 -->
                     <div class="col-12">
                         <p class="caution-gray">敬称省略</p>
+                    </div>
+                </div>
+            </section>
+            <!-- スポンサーについて -->
+            <section id="sponsor" class="col-lg-8 offset-lg-2 my-5 p-3 text-center rounded mx-sm-2 mx-md-auto">
+                <h1 class="title">スポンサーについて</h1>
+                <p>ScratchDay 2018 in Kashiwa を応援して頂いているスポンサーさまの一覧です。</p>
+
+                <div class="row">
+                    <!-- GoldSponsor -->
+                    <div id="gold" class="col-12 px-0 py-3 text-center">
+                        <h2 class="sub-title">〈Gold Sponsors〉</h2>
+                        <!-- スポンサー一覧 -->
+                        <div class="row mx-sm-5">
+                            <div class="card col-lg-8 offset-lg-2 my-5">
+                                <!-- 企業ロゴ -->
+                                <img src="./images/sponsor/afrel/logo/afrel.jpg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <!-- 企業名 -->
+                                    <h3 class="card-title">株式会社アフレル</h3>
+                                    <!-- 企業紹介 -->
+                                    <p class="card-text">LEGO Mindstorms EV3 / NXT / RCXを使った企業、教育機関、家庭学習の技術サポートを行っている会社です。</p>
+                                    <!-- 企業URL -->
+                                    <a href="//afrel.co.jp/" class="btn">企業様サイトへ</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 注釈 -->
+                        <div class="col-12">
+                            <p class="caution-gray">敬称省略</p>
+                        </div>
+                    </div>
+                    <!-- SilverSponsor -->
+                    <div id="silver" class="col-12 px-0 py-3 text-center">
+                        <h2 class="sub-title">〈Silver Sponsors〉</h2>
+                        <!-- スポンサー一覧 -->
+                        <div class="row mx-sm-5">
+                            <div class="card col-6 offset-3 my-5">
+                                <!-- 企業ロゴ -->
+                                <img src="./images/sponsor/iodata/logos/iodata.jpg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <!-- 企業名 -->
+                                    <h5 class="card-title d-none d-sm-block">株式会社アイ・オー・データ機器</h5>
+                                     <!-- 企業URL -->
+                                     <a href="//www.iodata.jp/" class="btn d-none d-lg-block">企業様サイトへ</a>
+                                </div>
+                            </div>
+                            <!-- 注釈 -->
+                            <div class="col-12">
+                                <p class="caution-gray">敬称省略</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
