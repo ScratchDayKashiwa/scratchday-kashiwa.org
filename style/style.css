@@ -124,3 +124,8 @@ ul{
     font-size: .5em;
     text-align: center;
 }
+
+/*== inquiry form ==*/
+.inputTitleLabel{
+    text-align: left;
+}
